@@ -23,6 +23,10 @@ public:
     cow_purpose get_purpose() const{
         return purpose;
     }
+    void set_age(int new_age){
+        age = new_age;
+    }
+    
 private:
     std::string name;
     int age;
